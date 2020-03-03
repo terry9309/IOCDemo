@@ -1,12 +1,1 @@
 
-事件三要素：
-  1.textView  事件源；
-  2.new View.OnClickListener() 事件
-  3.onClick() 事件处理
-  4.进行订阅 setOnClickListener
-   textView.setOnClickListener(new View.onClickListener){
-     @Override
-     public void onClick(View v){
-
-     }
-   }
